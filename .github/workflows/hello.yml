@@ -1,0 +1,7 @@
+name: print hello github
+on: push 
+jobs:
+  print_hello:
+    runs-on: ubuntu-latest
+    steps:
+      echo "Hello, GitHub Actions!" 
